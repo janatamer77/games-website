@@ -339,6 +339,8 @@ color: #f1f1f1;
     left: 12px;
     border-top: 30px solid var(--main-color);
     border-right: 30px solid transparent;
+    transform: translate(-8px , -8px);
+
 
 
 }
@@ -347,6 +349,9 @@ color: #f1f1f1;
     right: 12px;
     border-bottom: 30px solid var(--main-color);
     border-left: 30px solid transparent;
+    transform: translate(8px , 8px);
+
+
 
 }
 .what-do .what-card:hover {
@@ -356,7 +361,9 @@ color: #f1f1f1;
 }
 .what-do .what-card:hover::before,
 .what-do .what-card:hover::after {
+    transform: translate(0,0);
     opacity: 1; 
+    transition: all 0.5s ;
 }
 .what-do .what-card:hover .icon {
     background-color: var(--main-color);
@@ -714,8 +721,6 @@ color: #0b0e13;
     left: -40px;
     }
 }
-
-
 
 @media screen and (min-width:1024px) {
     
