@@ -163,6 +163,7 @@ h2{
 .home .btn-home{
     /* padding: 1rem 2.25rem; */
     padding: .5rem 1rem;
+    font-size: 13px;
     font-weight: 700;
     border: 2px solid var(--main-color);
     transition: all 0.5s;
@@ -191,6 +192,7 @@ h2{
         linear-gradient(#0B0E13, #0B0E13) padding-box,
         linear-gradient(to left ,#06DF72 , #c9fe1c) border-box;
     width: 90%;
+    margin-bottom: 3rem;
 }
 .home .right .home-img img {
     height: 24rem;
@@ -700,8 +702,13 @@ color: #0b0e13;
 .p-top::before{
     left: 200px;
 }
+.home .right .home-img {
+    margin-bottom: 0;
+}
+
 .home .btn-home{
     padding: 1rem 2.25rem;
+    font-size: 16px;
     }
     .home .right .card-img {
     left: -40px;
